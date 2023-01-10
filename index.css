@@ -1,0 +1,433 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    height: 100px;
+}
+#img1 {
+    height: 50px;
+    width: 150px;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+ ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    float: right;
+    margin-right: 35px;
+    margin-top: 15px;
+    
+}
+.ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    float: right;
+    padding-left: 500px;
+    margin-top: 15px;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    width: 80px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+a:hover {
+    background-color: peru;
+    color: white;
+    cursor: pointer;
+}
+
+#img2 {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    z-index: -1;
+}
+
+h1,
+p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.div1,
+.div3 {
+    height: 40px;
+    width: 250px;
+    border: 5px solid peru;
+    text-align: center;
+    margin: auto;
+    color: white;
+    vertical-align: middle;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.div1:hover {
+    background-color: peru;
+}
+
+#head1 {
+    color: black;
+    margin: 0px;
+    margin-left: 50px;
+    padding: 0px;
+    font-size: 35px;
+}
+
+#p1 {
+    color: black;
+    font-size: 20px;
+    margin-left: 150px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 50px;
+}
+
+.div2 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+.div3 {
+    color: black;
+    margin-right: 150px;
+}
+
+.div3:hover {
+    background-color: peru;
+    cursor: pointer;
+}
+
+#img3 {
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 15px peru;
+}
+
+.img4 {
+    background-image: url(image1.jpg);
+    margin-top: -140px;
+    padding: 0px;
+    position: absolute;
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+
+#head2 {
+    color: white;
+    
+    
+}
+
+#head3,
+#p2 {
+    color: black;
+    text-align: center;
+    line-height: 20px;
+}
+
+#p2 {
+    font-size: 20px;
+}
+
+#list1 {
+    border: 1px solid lightslategray;
+    height: 80px;
+    width: 40%;
+    margin: auto;
+}
+
+.list,
+.list2,
+.list3,
+.list4 {
+    text-align: center;
+    background-color: rgb(201, 215, 230);
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 300px;
+    flex-wrap: wrap;
+}
+
+.sub-div1,.sub-div2 ,.sub-div3,.sub-div4 ,.sub-div5,.sub-div6 ,.sub-div7,.sub-div8, .sub-div9{
+    width: 370px;
+    height: 250px;
+}
+
+.sub-div9 {
+    margin-left: 200px;
+}
+
+.photos {
+    height: 200px;
+    width: 350px;
+    margin-top: -124px;
+    padding-top: -120px;
+    position: absolute;
+    z-index:-1;
+}
+
+.photos1{
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    z-index: -1;
+}
+
+.sub-div1 h1,.sub-div2 h1,.sub-div3 h1,.sub-div4 h1,.sub-div5 h1,.sub-div6 h1,.sub-div7 h1,.sub-div8 h1,.sub-div9 h1{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+.sub-div1 p,.sub-div2 p, .sub-div3 p,.sub-div4 p,.sub-div5 p,.sub-div6 p,.sub-div7 p,.sub-div8 p,.sub-div9 p{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    padding-top:5px;
+}
+
+.hpclass,.hpclass1{
+    color:black;
+}
+
+.hpclass{
+    margin-top: -30px;
+    font-size: 32px;
+}
+
+.hpclass1 {
+    font-size: 20px;
+}
+
+.imgclass {
+    height:300px;
+    width:400px;
+    margin:20px;
+    transform: transition .6s;
+}
+
+.imgclass:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.hclass,.pclass{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hclass{
+    font-size: 32px;
+}
+
+.pclass {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.imgclass1 {
+    margin-left: 550px;
+    margin-top: 30px;
+    border-radius: 120px;
+}
+
+.hclass1,.pclass1{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hclass1{
+    color: peru;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.pclass1{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pclass2{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    line-height: 30px;
+}
+
+.one{
+    padding-top: 5px;
+    width:350px; 
+     height: 250px;
+     align-content: space-between;
+     z-index: -1;
+}
+
+.two{
+    
+    width:350px; 
+     height: 250px;
+     align-content: space-between;
+} 
+.three {
+    width:350px; 
+    height:250px;
+    align-items:center;
+}
+
+#one {
+    width: 40%;
+    height: 300px;
+    margin: 0px;
+    display: block;
+    margin-left: 50px;
+}
+
+#two {
+    width: 55%;
+    height: 300px;
+    color: black;
+    margin: 0px;
+
+}
+#flex {
+    border: 1px solid black;
+    color: white;
+}
+
+#footer1 {
+display: flex;
+width: 100%;
+height: 140px;
+border: 2px solid peru;
+background-color: peru;
+flex-direction: row;
+}
+
+#footer2{
+display: flex;
+width: 100%;
+height: 350px;
+display: flex;
+background-color: gray;
+flex: row;
+}
+
+.c1{
+    width: 33%;
+    margin-left:50px;
+    margin-top:25px;
+    font-size: 20px;
+}
+
+.c1 p {
+    font-size: 20px;
+    margin-bottom:20px;
+}
+
+.c2 {
+    width: 25%;
+}
+
+.about {
+    line-height: 20px;
+    text-align: left;
+    margin-left:20px;
+}
+
+#footer3 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+#last {
+    font-size: 32px;
+    color: white;
+    padding-top:30px;
+    padding-left: 400px;
+}
+
+input {
+    width: 250px;
+    height:40px;
+    background-color: black;
+    color: gray;
+    font-size: 20px;
+}
+
+button {
+    width: 255px;
+    height:40px;
+    background-color: peru;
+    color: white;
+    font-size: 20px;
+    border: 1px solid peru;
+    margin:0px
+}
+
+button:hover {
+    background-color: black;
+    border:1px solid black;
+    cursor: pointer;
+}
+.social{
+    cursor: pointer;
+}
